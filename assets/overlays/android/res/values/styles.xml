@@ -56,4 +56,10 @@
         <item name="android:mirrorForRtl">true</item>
     </style>
 
+	<!-- Framework Dialog Window Title -->
+    <style name="TextAppearance.Holo.Light.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo.Light">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">@color/holo_blue_dark</item>
+    </style>
+
 </resources>
