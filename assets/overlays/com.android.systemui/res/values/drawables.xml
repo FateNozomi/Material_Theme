@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_number_text_color">#ffffffff</item>
+    <item name="status_bar_notification_row_background_color" type="drawable">#ffffffff</item>
+    <item type="drawable" name="notification_header_bg">#ff384248</item>
+</resources>

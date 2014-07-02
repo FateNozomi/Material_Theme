@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2014 The CyanogenMod Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+-->
+
+<resources>
+
+    <!-- Framework Slider Buttons Design -->
+    <style name="Widget.Holo.CompoundButton.Switch" parent="@*android:style/Widget.Holo.CompoundButton">
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+        <item name="android:thumb">@*android:drawable/switch_inner_holo_dark</item>
+        <item name="android:switchTextAppearance">@*android:style/TextAppearance.Holo.Widget.Switch</item>
+        <item name="android:track">@drawable/switch_track_holo_dark</item>
+        <item name="android:switchMinWidth">0.0dip</item>
+        <item name="android:switchPadding">0.0dip</item>
+        <item name="android:thumbTextPadding">10.0dip</item>
+    </style>
+
+    <style name="Widget.Holo.Light.CompoundButton.Switch" parent="@*android:style/Widget.CompoundButton.Switch">
+        <item name="android:textOn"></item>
+        <item name="android:textOff"></item>
+        <item name="android:thumb">@*android:drawable/switch_inner_holo_light</item>
+        <item name="android:switchTextAppearance">@*android:style/TextAppearance.Holo.Light.Widget.Switch</item>
+        <item name="android:track">@drawable/switch_track_holo_light</item>
+        <item name="android:switchMinWidth">0.0dip</item>
+        <item name="android:switchPadding">0.0dip</item>
+        <item name="android:thumbTextPadding">10.0dip</item>
+    </style>
+	
+    <!-- Framework Progress Bars -->
+    <style name="Widget.Holo.ProgressBar.Large" parent="@*android:style/Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@drawable/semc_progress_large_holo</item>
+        <item name="android:mirrorForRtl">true</item>
+    </style>
+
+    <style name="Widget.Holo.ProgressBar" parent="@*android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/semc_progress_medium_holo</item>
+        <item name="android:mirrorForRtl">true</item>
+    </style>
+
+    <style name="Widget.Holo.ProgressBar.Small" parent="@*android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/semc_progress_small_holo</item>
+        <item name="android:mirrorForRtl">true</item>
+    </style>
+
+</resources>

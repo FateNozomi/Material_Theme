@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_template_icon_bg">#ff54656e</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+</resources>
