@@ -16,7 +16,7 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.android.material" android:versionCode="2" android:versionName="1.11">
+    package="com.google.android.material" android:versionCode="3" android:versionName="1.12">
 
     <uses-feature android:required="true" android:name="org.cyanogenmod.theme" />
 
