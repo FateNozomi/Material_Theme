@@ -16,9 +16,10 @@
 -->
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.google.android.material" android:versionCode="1" android:versionName="2.1">
+    package="com.google.android.material" android:versionCode="1" android:versionName="2.2">
 
     <uses-feature android:required="true" android:name="org.cyanogenmod.theme" />
+    <uses-sdk android:targetSdkVersion="19" android:minSdkVersion="19"/>
 
     <application android:hasCode="false" android:icon="@drawable/ic_launcher" android:label="Material">
     </application>
