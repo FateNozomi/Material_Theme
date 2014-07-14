@@ -17,6 +17,13 @@
 
 <resources>
 
+    <style name="TextAppearance.StatusBar.Clock" parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/status_bar_clock_color</item>
+    </style>
+
     <style name="TextAppearance.StatusBar.Expanded" parent="@*android:style/TextAppearance.StatusBar" />
     <style name="TextAppearance.StatusBar.Expanded.Clock" parent="@style/TextAppearance.StatusBar.Expanded">
         <item name="android:textSize">26.0dip</item>
@@ -32,6 +39,19 @@
     </style>
     <style name="TextAppearance.StatusBar.Expanded.Network" parent="@style/TextAppearance.StatusBar.Expanded.Date">
         <item name="android:textColor">#00000000</item>
+    </style>
+
+	<!-- QuickSettings Font Framework Design-->
+    <style name="TextAppearance" />
+    <style name="TextAppearance.QuickSettings" parent="@style/TextAppearance" />
+    <style name="TextAppearance.QuickSettings.TileView" parent="@style/TextAppearance.QuickSettings">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textColor">#ffcccccc</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingStart">6.0dip</item>
+        <item name="android:paddingEnd">6.0dip</item>
     </style>
 
 </resources>

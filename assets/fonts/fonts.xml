@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    System Fonts
+
+    This file lists the font families that will be used by default for all supported glyphs.
+    Each entry consists of a family, various names that are supported by that family, and
+    up to four font files. The font files are listed in the order of the styles which they
+    support: regular, bold, italic and bold-italic. If less than four styles are listed, then
+    the styles with no associated font file will be supported by the other font files listed.
+
+    The first family is also the default font, which handles font request that have not specified
+    specific font names.
+
+    Any glyph that is not handled by the system fonts will cause a search of the fallback fonts.
+    The default fallback fonts are specified in the file /system/etc/fallback_fonts.xml, and there
+    is an optional file which may be supplied by vendors to specify other fallback fonts to use
+    in /vendor/etc/fallback_fonts.xml.
+-->
 <familyset>
+
     <family>
         <nameset>
             <name>sans-serif</name>
@@ -15,7 +33,7 @@
             <file>Roboto-BoldItalic.ttf</file>
         </fileset>
     </family>
-    
+
     <family>
         <nameset>
             <name>sans-serif-light</name>
@@ -25,7 +43,7 @@
             <file>Roboto-LightItalic.ttf</file>
         </fileset>
     </family>
-    
+
     <family>
         <nameset>
             <name>sans-serif-thin</name>
@@ -35,16 +53,46 @@
             <file>Roboto-ThinItalic.ttf</file>
         </fileset>
     </family>
-    
-   <family>
+
+    <family>
         <nameset>
             <name>sans-serif-condensed</name>
         </nameset>
         <fileset>
             <file>RobotoCondensed-Regular.ttf</file>
-            <file>RobotoCondensed-Italic.ttf</file>
             <file>RobotoCondensed-Bold.ttf</file>
+            <file>RobotoCondensed-Italic.ttf</file>
             <file>RobotoCondensed-BoldItalic.ttf</file>
         </fileset>
     </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-medium</name>
+        </nameset>
+        <fileset>
+            <file>Roboto-Medium.ttf</file>
+            <file>Roboto-MediumItalic.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-black</name>
+        </nameset>
+        <fileset>
+            <file>Roboto-Black.ttf</file>
+        </fileset>
+    </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-condensed-light</name>
+        </nameset>
+        <fileset>
+            <file>RobotoCondensed-Light.ttf</file>
+            <file>RobotoCondensed-LightItalic.ttf</file>
+        </fileset>
+    </family>
+
 </familyset>
