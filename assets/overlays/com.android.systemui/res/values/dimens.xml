@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="close_handle_underlap">18.0dip</dimen>
     <dimen name="notification_panel_header_height">64.0dip</dimen>
     <dimen name="quick_settings_cell_height">102.0dip</dimen>
     <dimen name="quick_settings_cell_gap">0.0dip</dimen>
