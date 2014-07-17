@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalendarActionBarStyle" parent="@android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:displayOptions">showCustom</item>
+        <item name="android:background">@drawable/ab_solid_light_holo</item>
+    </style>
+
+</resources>
