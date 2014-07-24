@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="incall_call_banner_background">#ff0fc6dc</color>
+    <color name="incall_secondary_info_background">#ff0fc6dc</color>
+    <color name="button_background">#ff0fc6dc</color>
+    <color name="actionbar_background_color">#ffffffff</color>
+    <color name="dialpad_primary_text_color">#ff0fc6dc</color>
+    <color name="background_dialer_list_items">#fff6f6f6</color>
+    <color name="actionbar_underline">#ff0fc6dc</color>
+    <color name="favorites_menu_background_color">#fff6f6f6</color>
+    <color name="tab_background_gradient_start_color">#ff0fc6dc</color>
+    <color name="tab_background_gradient_end_color">#ff0fc6dc</color>
+    <color name="tab_background_gradient_start_pressed_color">#ff0fc6dc</color>
+    <color name="tab_background_gradient_end_pressed_color">#ff0fc6dc</color>
+    <color name="tab_underline_selected_color">#fff6f6f6</color>
+    <color name="tab_underline_color">#fff6f6f6</color>
+    <color name="tab_selected_color">#ffeeff41</color>
+    <color name="tab_text_color">#ffffffff</color>
+
+</resources>

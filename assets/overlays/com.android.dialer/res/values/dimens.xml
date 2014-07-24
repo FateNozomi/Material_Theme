@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dialpad_key_numbers_size">40.0sp</dimen>
+    <dimen name="dialpad_key_numbers_width">30.0dip</dimen>
+
+</resources>

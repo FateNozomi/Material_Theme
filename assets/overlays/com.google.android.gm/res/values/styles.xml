@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="PlainActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo" />
+
+    <style name="PlainActionBarStyle" parent="@android:style/Widget.Holo.ActionBar.Solid">
         <item name="android:displayOptions">none</item>
         <item name="android:background">@drawable/ab_solid_light_holo</item>
+    </style>
+
+    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionModeBackground">@drawable/cab_background_top_holo_dark</item>
+        <item name="android:actionModeCloseDrawable">@*android:drawable/ic_cab_done_holo_dark</item>
+        <item name="android:textColorPrimary">@*android:color/primary_text_holo_dark</item>
+        <item name="android:textColorSecondary">@*android:color/secondary_text_holo_dark</item>
+
+        <item name="android:listViewWhiteStyle">@*android:style/Widget.Holo.ListView</item>
+        <item name="android:actionDropDownStyle">@style/PlainSpinnerDropdown</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
+    </style>
+
+    <style name="PlainSpinnerDropdown" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="OverflowButtonStyle" parent="@android:style/Widget.Holo.ActionButton.Overflow">
     </style>
 
 </resources>
