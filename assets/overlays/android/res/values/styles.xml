@@ -65,13 +65,13 @@
 	<!-- Framework ActionBar Title -->
 
     <style name="TextAppearance.Holo.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Medium">
-        <item name="android:textSize">@*android:dimen/action_bar_title_text_size</item>
+        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
         <item name="android:textStyle">normal</item>
 		<item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
     <style name="TextAppearance.Holo.Widget.ActionBar.Title.Inverse" parent="@android:style/TextAppearance.Holo.Medium.Inverse">
-        <item name="android:textSize">@*android:dimen/action_bar_title_text_size</item>
+        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
         <item name="android:textStyle">normal</item>
 		<item name="android:fontFamily">sans-serif-medium</item>
     </style>

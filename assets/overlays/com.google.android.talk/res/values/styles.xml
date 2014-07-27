@@ -10,7 +10,7 @@
     <style name="EsActionBar.Title" parent="@style/EsActionBar">
         <item name="android:textStyle">normal</item>
 		<item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:textSize">18.0sp</item>
+        <item name="android:textSize">20.0dip</item>
         <item name="android:textColor">@color/text_secondary_default_color_dark</item>
         <item name="android:background">#00000000</item>
     </style>

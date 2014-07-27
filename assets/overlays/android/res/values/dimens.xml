@@ -3,4 +3,5 @@
     <dimen name="preference_fragment_padding_side">0.0dip</dimen>
     <dimen name="preference_screen_header_padding_side">0.0dip</dimen>
     <dimen name="action_bar_default_height">56.0dip</dimen>
+    <dimen name="action_bar_title_text_size">20.0dip</dimen>
 </resources>
