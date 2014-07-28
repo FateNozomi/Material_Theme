@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_000" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_001" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_002" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_003" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_004" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_005" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_006" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_007" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_008" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_009" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_010" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_011" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_012" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_013" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_014" />
+    <item android:duration="20" android:drawable="@drawable/btn_check_to_on_mtrl_dark_015" />
+</animation-list>
