@@ -63,7 +63,6 @@
     </style>
 
 	<!-- Framework ActionBar Title -->
-
     <style name="TextAppearance.Holo.Widget.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Medium">
         <item name="android:textSize">@dimen/action_bar_title_text_size</item>
         <item name="android:textStyle">normal</item>
@@ -74,6 +73,19 @@
         <item name="android:textSize">@dimen/action_bar_title_text_size</item>
         <item name="android:textStyle">normal</item>
 		<item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+	<!-- Framework Notification Design -->
+    <style name="TextAppearance.StatusBar.EventContent" parent="@*android:style/TextAppearance.StatusBar">
+        <item name="android:textSize">@dimen/notification_text_size</item>
+        <item name="android:textColor">#ff999999</item>
+    </style>
+
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@android:style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@dimen/notification_title_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
     </style>
 
 </resources>
