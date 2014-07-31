@@ -20,6 +20,8 @@
     <!-- Settings Action Bar Design -->
     <style name="Theme.Settings" parent="@android:style/Theme.Holo">
         <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Solid</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Holo.Medium</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.Holo.TextView.ListSeparator</item>
     </style>
 
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge">
@@ -32,6 +34,19 @@
     </style>
 
     <style name="TextAppearance.Holo.Widget.ActionBar.Title" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textStyle">normal</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Medium" parent="@android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+
+	<!-- Framework ListSeparator Design -->
+    <style name="Widget.Holo.TextView.ListSeparator" parent="@*android:style/Widget.TextView.ListSeparator">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:background">@*android:drawable/list_section_divider_holo_dark</item>
+        <item name="android:textAllCaps">true</item>
         <item name="android:textStyle">normal</item>
 		<item name="android:fontFamily">sans-serif-medium</item>
     </style>
