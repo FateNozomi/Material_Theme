@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="CalendarTheme" parent="@android:style/Theme.Holo">
-        <item name="android:windowContentOverlay">@null</item>
-    </style>
-
-    <style name="CalendarTheme.WithActionBar" parent="@android:style/Theme.Holo">
+    <style name="CalendarTheme.WithActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:windowBackground">@color/background_color</item>
         <item name="android:windowNoTitle">false</item>
         <item name="android:startYear">1970</item>
@@ -16,6 +12,7 @@
 
     <style name="CalendarActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:displayOptions">showCustom</item>
+        <item name="android:icon">@*android:color/transparent</item>
         <item name="android:background">@drawable/ab_solid_light_holo</item>
     </style>
 

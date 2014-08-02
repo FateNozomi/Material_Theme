@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="background_color">#ffffffff</color>
+    <color name="background_color">#fffafafa</color>
     <color name="calendar_view_switch_menu_text_color">#deffffff</color>
 
 </resources>
