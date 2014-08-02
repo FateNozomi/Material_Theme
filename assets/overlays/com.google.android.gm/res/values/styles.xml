@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppBaseTheme" parent="@android:style/Theme.Holo" />
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar" />
 
-    <style name="PlainActionBarStyle" parent="@android:style/Widget.Holo.ActionBar.Solid">
+    <style name="PlainActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:displayOptions">none</item>
         <item name="android:icon">@*android:color/transparent</item>
         <item name="android:background">@drawable/ab_solid_light_holo</item>
     </style>
 
-    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Holo.Light">
+    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionModeBackground">@drawable/cab_background_top_holo_dark</item>
         <item name="android:actionModeCloseDrawable">@*android:drawable/ic_cab_done_holo_dark</item>
         <item name="android:textColorPrimary">@*android:color/primary_text_holo_dark</item>
