@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar" />
-
     <style name="PlainActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:displayOptions">none</item>
         <item name="android:icon">@*android:color/transparent</item>
         <item name="android:background">@drawable/ab_solid_light_holo</item>
     </style>
 
-    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+    <style name="UnifiedEmailTheme" parent="@android:style/Theme.Holo.Light">
         <item name="android:actionModeBackground">@drawable/cab_background_top_holo_dark</item>
 
 
@@ -19,11 +17,11 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
     </style>
 
-    <style name="PlainSpinnerDropdown" parent="@android:style/Widget.Holo.Spinner">
+    <style name="PlainSpinnerDropdown" parent="@android:style/Widget.Holo.Light.Spinner">
         <item name="android:background">@null</item>
     </style>
 
-    <style name="OverflowButtonStyle" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+    <style name="OverflowButtonStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
     </style>
 
 </resources>
