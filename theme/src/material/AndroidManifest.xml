@@ -15,8 +15,18 @@
  * limitations under the License.
 -->
 
-<resources>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.your.theme.template">
 
-    <string name="app_name">Material Theme</string>
+    <uses-feature android:required="true" android:name="org.cyanogenmod.theme" />
 
-</resources>
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="19" />
+
+    <meta-data android:name="org.cyanogenmod.theme.name" android:value="@string/theme_name"/>
+    <meta-data android:name="org.cyanogenmod.theme.author" android:value="@string/theme_author" />
+
+    <application android:hasCode="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/theme_name"/>
+
+</manifest>
