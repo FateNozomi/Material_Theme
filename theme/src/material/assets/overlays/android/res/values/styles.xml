@@ -39,22 +39,6 @@
         <item name="android:switchPadding">0.0dip</item>
         <item name="android:thumbTextPadding">10.0dip</item>
     </style>
-	
-    <!-- Framework Progress Bars -->
-    <style name="Widget.Holo.ProgressBar.Large" parent="@*android:style/Widget.ProgressBar.Large">
-        <item name="android:indeterminateDrawable">@drawable/semc_progress_large_holo</item>
-        <item name="android:mirrorForRtl">true</item>
-    </style>
-
-    <style name="Widget.Holo.ProgressBar" parent="@*android:style/Widget.ProgressBar">
-        <item name="android:indeterminateDrawable">@drawable/semc_progress_medium_holo</item>
-        <item name="android:mirrorForRtl">true</item>
-    </style>
-
-    <style name="Widget.Holo.ProgressBar.Small" parent="@*android:style/Widget.ProgressBar.Small">
-        <item name="android:indeterminateDrawable">@drawable/semc_progress_small_holo</item>
-        <item name="android:mirrorForRtl">true</item>
-    </style>
 
 	<!-- Framework Dialog Window Title -->
     <style name="TextAppearance.Holo.Light.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo.Light">
