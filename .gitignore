@@ -5,5 +5,8 @@
 /build
 *.iml
 Thumbs.db
-/bin
-/gen
+.classpath
+.project
+project.properties
+/theme/src/material/bin
+/theme/src/material/gen
