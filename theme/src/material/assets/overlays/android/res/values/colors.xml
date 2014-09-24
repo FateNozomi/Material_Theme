@@ -17,7 +17,7 @@
 
 <resources>
 
-    <color name="holo_blue_bright">#ff73e5da</color>
+    <color name="holo_blue_bright">#ffb2dfdb</color>
     <color name="holo_blue_dark">#ff009688</color>
     <color name="holo_blue_light">#ff7fcac3</color>
     <color name="bright_foreground_disabled_holo_dark">#4dffffff</color>
