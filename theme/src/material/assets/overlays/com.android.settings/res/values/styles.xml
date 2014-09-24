@@ -22,11 +22,12 @@
         <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Solid</item>
         <item name="android:textAppearanceMedium">@style/TextAppearance.Holo.Medium</item>
         <item name="android:listSeparatorTextViewStyle">@style/Widget.Holo.TextView.ListSeparator</item>
-		<item name="android:windowContentOverlay">@drawable/actionbar_shadow</item>
+		<item name="android:windowContentOverlay">@*android:drawable/ab_solid_shadow_holo</item>
     </style>
 
     <style name="Theme.DialogWhenLarge" parent="@android:style/Theme.Holo.DialogWhenLarge">
         <item name="android:actionBarStyle">@style/Widget.Holo.ActionBar.Solid</item>
+		<item name="android:windowContentOverlay">@*android:drawable/ab_solid_shadow_holo</item>
     </style>
 
     <style name="Widget.Holo.ActionBar.Solid" parent="@*android:style/Widget.Holo.ActionBar.Solid">

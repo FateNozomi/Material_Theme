@@ -10,6 +10,7 @@
         <item name="android:colorBackgroundCacheHint">@android:color/white</item>
         <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
+		<item name="android:windowContentOverlay">@drawable/ab_solid_shadow_holo</item>
     </style>
 
     <style name="PlainActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
@@ -27,6 +28,7 @@
         <item name="android:actionDropDownStyle">@style/PlainSpinnerDropdown</item>
         <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
+		<item name="android:windowContentOverlay">@drawable/ab_solid_shadow_holo</item>
     </style>
 
     <style name="PlainSpinnerDropdown" parent="@android:style/Widget.Holo.Light.Spinner">
