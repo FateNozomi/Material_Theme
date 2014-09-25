@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Settings" parent="@android:style/Theme.Holo.DialogWhenLarge">
+        <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+		<item name="android:windowContentOverlay">@*android:drawable/ab_solid_shadow_holo</item>
+    </style>
+
+</resources>
