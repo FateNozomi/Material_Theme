@@ -2,7 +2,7 @@
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
-        <color android:color="#00000000" />
+        <color android:color="#20ffffff" />
     </item>
     <item>
         <color android:color="#00000000" />
