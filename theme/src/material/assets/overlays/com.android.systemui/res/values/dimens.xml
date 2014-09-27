@@ -5,6 +5,6 @@
     <dimen name="quick_settings_cell_height">102.0dip</dimen>
     <dimen name="quick_settings_cell_gap">0.0dip</dimen>
     <dimen name="peek_height">60.0dip</dimen>
-    <dimen name="qs_tile_margin_above_icon">20.0dip</dimen>
-    <dimen name="qs_tile_margin_below_icon">12.0dip</dimen>
+    <dimen name="qs_tile_margin_above_icon">23.0dip</dimen>
+    <dimen name="qs_tile_margin_below_icon">13.0dip</dimen>
 </resources>
