@@ -59,6 +59,25 @@
 		<item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
+	<!-- Framework TextView ListSeperator Design -->
+    <style name="Widget.Holo.TextView.ListSeparator" parent="@*android:style/Widget.TextView.ListSeparator">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff757575</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">@drawable/list_section_divider_holo_dark</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="Widget.Holo.Light.TextView.ListSeparator" parent="@*android:style/Widget.TextView.ListSeparator">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff757575</item>
+		<item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:background">@drawable/list_section_divider_holo_light</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
 	<!-- Framework Notification Design -->
     <style name="TextAppearance.StatusBar.EventContent" parent="@*android:style/TextAppearance.StatusBar">
         <item name="android:textSize">@dimen/notification_text_size</item>
