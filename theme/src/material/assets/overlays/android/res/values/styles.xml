@@ -64,7 +64,7 @@
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">#ff757575</item>
-		<item name="android:fontFamily">sans-serif-medium</item>
+		<item name="android:fontFamily">sans-serif-black</item>
         <item name="android:background">@drawable/list_section_divider_holo_dark</item>
         <item name="android:textAllCaps">true</item>
     </style>
@@ -73,7 +73,7 @@
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textColor">#ff757575</item>
-		<item name="android:fontFamily">sans-serif-medium</item>
+		<item name="android:fontFamily">sans-serif-black</item>
         <item name="android:background">@drawable/list_section_divider_holo_light</item>
         <item name="android:textAllCaps">true</item>
     </style>
